@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <ling href="    https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic.min.css"></ling>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>weather-dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" id="head">
+            <div class="col-12">
+                <H1 class="header">Weather dashboard</H1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 p-3">
+                <h2>Search for a City</h2>
+                <form>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="city-search">Submit</span>
+                    <input id="city-input" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                  </div>
+                  </form>
+                 <!--Saved cities appended here-->
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-3 p-3">
+                             <ul id="saved-cities"></ul>
+                         </div>
+                     </div>
+                 </div>
+                </div>
+             
+            
+
+            <div class="col-9">
+                <!--data is here-->
+                <h2 class="city-name-date"> City and Date </h2>
+                <ul class="weather-specs">
+                    <p class="temp">Temp:</p>
+                    <p class="wind">Wind:</p>
+                    <p class="humidity">Humidity:</p>
+                    <p class="uv-index">UV index:</p>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- <script src= "https://cdnjs.cloudflare.com/ajax/libs/open-weather/2.0.0/openweather.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./assets/JS/script.js"></script>
+</body>

@@ -1,0 +1,10 @@
+/*import google font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Roboto';
+}
+
+.header {
+    padding: 20px;
+}
