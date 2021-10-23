@@ -15,14 +15,14 @@
     <div class="container">
         <div class="row" id="head">
             <div class="col-12">
-                <H1 class="header">Weather dashboard</H1>
+                <H1 class="header">Weather dashboard <br> <span id="date-today"></span></H1>
             </div>
         </div>
         <div class="row">
             <div class="col-3 p-3">
                 <h2>Search for a City</h2>
                 <form>
-                <div class="input-group mb-3">
+                <div class="input-group mb-3" id="search">
                     <span class="input-group-text" id="city-search">Submit</span>
                     <input id="city-input" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                   </div>
@@ -39,17 +39,80 @@
              
             
 
-            <div class="col-9">
+            <div class="col-9" id="today-weather">
                 <!--data is here-->
-                <h2 class="city-name-date"> City and Date </h2>
-                <ul class="weather-specs">
-                    <p class="temp">Temp:</p>
-                    <p class="wind">Wind:</p>
-                    <p class="humidity">Humidity:</p>
-                    <p class="uv-index">UV index:</p>
+                <h2 id="city-name-date"> City and Date </h2>
+                <ul id = "weather-specs">
+                    <p id = "temp">Temp:</p>
+                    <p id = "wind">Wind:</p>
+                    <p id = "humidity">Humidity:</p>
+                    <p id = "uv-index">UV index:</p>
                 </ul>
                 
             </div>
+
+            <h2 id= "city-name-date"> This Weeks Five Day Forecast:</h2>
+            <div class="col-2" id="day-1">
+                <!--data is here-->
+                <h4 id="city-name-date1"></h2>
+                <ul id = "weather-specs1">
+                    <p id = "temp1">Temp:</p>
+                    <p id = "wind1">Wind:</p>
+                    <p id = "humidity1">Humidity:</p>
+                    <p id = "uv-index1">UV index:</p>
+                    <img id="img1">
+                </ul>
+                
+            </div>
+            <div class="col-2" id="day-2">
+                <!--data is here-->
+                <h4 id="city-name-date2"></h2>
+                <ul id = "weather-specs2">
+                    <p id = "temp2">Temp:</p>
+                    <p id = "wind2">Wind:</p>
+                    <p id = "humidity2">Humidity:</p>
+                    <p id = "uv-index2">UV index:</p>
+                    <img id="img2">
+                </ul>
+                
+            </div>
+            <div class="col-2" id="day-3">
+                <!--data is here-->
+                <h4 id="city-name-date3"></h2>
+                <ul id = "weather-specs3">
+                    <p id = "temp3">Temp:</p>
+                    <p id = "wind3">Wind:</p>
+                    <p id = "humidity3">Humidity:</p>
+                    <p id = "uv-index3">UV index:</p>
+                    <img id="img3">
+                </ul>
+                
+            </div>
+            <div class="col-2" id="day-4">
+                <!--data is here-->
+                <h4 id="city-name-date4"></h2>
+                <ul id = "weather-specs4">
+                    <p id = "temp4">Temp:</p>
+                    <p id = "wind4">Wind:</p>
+                    <p id = "humidity4">Humidity:</p>
+                    <p id = "uv-index4">UV index:</p>
+                    <img id="img4">
+                </ul>
+                
+            </div>
+            <div class="col-2" id="day-5">
+                <!--data is here-->
+                <h4 id="city-name-date5"></h2>
+                <ul id = "weather-specs5">
+                    <p id = "temp5">Temp:</p>
+                    <p id = "wind5">Wind:</p>
+                    <p id = "humidity5">Humidity:</p>
+                    <p id = "uv-index5">UV index:</p>
+                    <img id="img5">
+                </ul>
+                
+            </div>
+
         </div>
     </div>
 
@@ -59,7 +122,7 @@
 
 
 
-    <!-- <script src= "https://cdnjs.cloudflare.com/ajax/libs/open-weather/2.0.0/openweather.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="./assets/JS/script.js"></script>
 </body>

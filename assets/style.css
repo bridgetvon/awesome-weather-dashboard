@@ -3,8 +3,48 @@
 
 body {
     font-family: 'Roboto';
+    
 }
 
 .header {
+    padding: 20px;
+}
+
+#search {
+    float:right;
+}
+
+
+.saved-cities {
+    background-color: #fff;
+    font-size: 10px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    border: 2px solid #219ebc;
+    
+}
+
+#today-weather {
+    padding: 20px;
+}
+
+span {
+    cursor: pointer;
+}
+
+.col-2 {
+    border-radius: 8px;
+    border: 2px solid #219ebc;
+    flex-direction: row;
+    width: 20%;
+    float: left;
+}
+
+#today-weather {
+    border: 2px solid #7dcfb6;
+    border-radius: 8px;
+}
+
+#city-name-date {
     padding: 20px;
 }
